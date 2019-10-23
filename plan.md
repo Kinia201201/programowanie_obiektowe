@@ -24,7 +24,7 @@
   3. ?(Efektywny Python, Python dla zupełnie początkujących, Python kurs programowania na prostych przykładach)
   
   
-## 4. Tematy programów, któe chcę napisać - na każdy tydzień
+## 4. Tematy programów, które chcę napisać - na każdy tydzień
 
 
 ## 5. Lista problemów pojęć, które chcę zrozumieć
