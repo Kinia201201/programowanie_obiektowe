@@ -33,6 +33,7 @@
 ## 6. Inne narzędzia
 
   * PyCharm
+  * github
 
 ## 7. Zrealizowano
 
