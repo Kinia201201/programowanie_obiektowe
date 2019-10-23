@@ -21,7 +21,7 @@
 
   1. M. Dawson, Python dla każdego, Podstawy programowania, 2014, Helion
   2. M. Lutz, Python, Wprowadzenie, 2011, Helion
-  * ?(Efektywny Python, Python dla zupełnie początkujących, Python kurs programowania na prostych przykładach)
+  3. ?(Efektywny Python, Python dla zupełnie początkujących, Python kurs programowania na prostych przykładach)
   
   
 ## 4. Tematy programów, któe chcę napisać - na każdy tydzień
@@ -34,11 +34,11 @@
 
   * PyCharm
 
-## 7. Zrealizowane
+## 7. Zrealizowano
 
-  ### * do 23.10.19
+  ### do 23.10.19
     Literatura: 1.-str.75, 2.-str.80
     Zadania z zajęć: Problem 1
     piaskownica: square_grid.py
-  ### * do 3.11.19
+  ### do 3.11.19
     piaskownica: simplecli.py
