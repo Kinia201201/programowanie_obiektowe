@@ -37,8 +37,8 @@
 ## 7. Zrealizowano
 
   ### do 23.10.19
-    Literatura: 1.-str.75, 2.-str.80
-    Zadania z zajęć: Problem 1
+    literatura: 1.-str.75, 2.-str.80
+    zadania z zajęć: Problem 1
     piaskownica: square_grid.py
   ### do 3.11.19
     piaskownica: simplecli.py
