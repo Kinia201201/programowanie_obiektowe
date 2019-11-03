@@ -24,6 +24,7 @@ y = [1, 1, 2, 3, 4]
 x = [i - xc for i in x]
 y = [i - yc for i in y]
 
+
 X = np.array(x)
 Y = np.array(y)
 #Y = [[-1, 0 , 1]]
