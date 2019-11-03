@@ -13,8 +13,8 @@
   
 ## 2. Praca na każdy tydzień
 
-  * 5h programowania
-  * 3h czytania
+  * 4h programowania
+  * 2h czytania
   
   
 ## 3. Literatura
