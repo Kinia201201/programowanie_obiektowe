@@ -33,6 +33,9 @@ Y = np.array(y)
 #funcX(X[j])
 #(Y[j] - (1 - Y[j]))
 j = 0
+u = [None] * 5
+v = [None] * 5
+#v = []
 for i in X:
     u[j] = -X[j]/np.sqrt(funcX(X[j]) ** 2 + funcY(Y[j]) ** 2)
     v[j] = -Y[j]/np.sqrt(funcX(X[j]) ** 2 + funcY(Y[j]) ** 2)
