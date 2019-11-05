@@ -26,6 +26,17 @@
   
 ## 4. Tematy programów, które chcę napisać - na każdy tydzień
 
+  * 10.11.19 - Problem 2 - Central vector field 
+  * 17.11.19
+  * 24.11.19
+  * 1.12.19
+  * 8.12.19
+  * 22.12.19
+  * 29.12.19
+  * 5.01.20
+  * 12.01.20
+  * 19.01.20
+  * 26.01.20
 
 ## 5. Lista problemów pojęć, które chcę zrozumieć
 
@@ -35,11 +46,4 @@
   * PyCharm
   * github
 
-## 7. Zrealizowano
 
-  ### do 23.10.19
-    literatura: 1.-str.75, 2.-str.80
-    zadania z zajęć: Problem 1
-    piaskownica: square_grid.py
-  ### do 3.11.19
-    piaskownica: simplecli.py
