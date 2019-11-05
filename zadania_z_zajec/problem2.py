@@ -11,10 +11,7 @@ Created on Tue Oct 22 22:10:04 2019
 
 import matplotlib.pyplot as plt
 import numpy as np
-def funcX(value): #długosc wektora XC - domyslnie xc-xx, ale x = [i - xc for i in x] - wartosci przesuniete do centrum 0,0
-    return (-value)
-def funcY(value):
-    return (-value)
+
 
 xc = 1 # współrzędna punkty centralnego pola
 yc = 2
@@ -23,8 +20,8 @@ ya = 1
 
 k = 1/np.sqrt((xc - xa) ** 2 + (yc - ya) ** 2)
 
-x = [-2, 3, 1, -2, 6] # 0 i 4 dodatkowe
-y = [1, 1, 2, 3, 4] 
+x = [-2, 3, 1, -2, 6, 6] # 0,4,5 dodatkowe
+y = [1, 1, 2, 3, 4, 1] 
 
 x = [i - xc for i in x]
 y = [i - yc for i in y]
@@ -43,22 +40,23 @@ u = [None] * len(X)
 v = [None] * len(X)
 #v = []
 for i in X:
-    u[j] = funcX(X[j])/(k * np.sqrt(funcX(X[j]) ** 2 + funcY(Y[j]) ** 2))
-    v[j] = funcY(Y[j])/(k * np.sqrt(funcX(X[j]) ** 2 + funcY(Y[j]) ** 2))
+    u[j] = X[j]/np.sqrt((xc - xa) ** 2 + (yc - ya) ** 2) #v = (X-C) / |CX| * |CX| * 1/|CA|
+    v[j] = Y[j]/np.sqrt((xc - xa) ** 2 + (yc - ya) ** 2)
     j = j + 1
     
 #u = -X/np.sqrt(X ** 2 + Y ** 2)
 #v = -Y/np.sqrt(X ** 2 + Y ** 2)
 
 def lenwek(i):
-    return np.sqrt(u[i] ** 2 + v[i] ** 2) # pole centralne równe 1 w punkcie A
+    return np.sqrt(u[i] ** 2 + v[i] ** 2) # pole centralne równe 1 w punkcie A - i=0
+     
 
 fig, ax = plt.subplots(figsize=(8,8))
 ax.quiver(X + xc,Y + yc ,u , v)
 
 
 
-ax.axis([-3, 7, 0, 5])
+ax.axis([-5, 8, -5, 8])
 ax.set_aspect('equal')
 
 plt.show()
