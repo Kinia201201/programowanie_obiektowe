@@ -64,9 +64,8 @@ if __name__ == '__main__':
     colors = ['yellow', 'red', 'blue']
     for poly, color in zip(pc.polyList, colors):
         fig, ax = plt.subplots()
-        ax.set_xlabel('Polygons radius: ' + str(poly.radius)) 
+        ax.set_xlabel('Polygon radius: ' + str(poly.radius)) 
         poly.plot(ax, facecolor=color)
-        print('Polygons radius : ', poly.radius)
         ax.autoscale()
         ax.set_aspect('equal')
         fig.show()    
