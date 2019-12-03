@@ -53,6 +53,7 @@ if __name__ == '__main__':
     
     
     fig, ax = plt.subplots()
+    fig.suptitle('All polygons', fontsize=14, fontweight='bold')
     ax.set_xlabel('Polygons radius max: ' + str(pc.max_radius())) 
     colors = ['yellow', 'red', 'blue']
     for poly, color in zip(pc.polyList, colors):
@@ -64,6 +65,7 @@ if __name__ == '__main__':
     colors = ['yellow', 'red', 'blue']
     for poly, color in zip(pc.polyList, colors):
         fig, ax = plt.subplots()
+        fig.suptitle('Polygon sides: ' + str(poly.n), fontsize=14, fontweight='bold')
         ax.set_xlabel('Polygon radius: ' + str(poly.radius)) 
         poly.plot(ax, facecolor=color)
         ax.autoscale()
